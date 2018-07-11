@@ -1,0 +1,213 @@
+@charset "UTF-8";
+body {
+  background: #f2f2f2; }
+
+#list {
+  width: 1200px;
+  height: 6250px;
+  margin: 14px auto 0 auto;
+  /* background:red; */ }
+
+.junavInfo {
+  height: 41px;
+  line-height: 40px; }
+
+#junav1.nine_twenty .junavInfo .area {
+  height: 40px;
+  padding: 0 15px;
+  border: 1px solid #e5e5e5;
+  border-bottom: 0;
+  background-color: #fff; }
+
+#junav1 .l {
+  font-size: 12px;
+  color: #666;
+  display: inline;
+  float: left;
+  text-align: left;
+  overflow: hidden;
+  padding-right: 15px; }
+  #junav1 .l em {
+    line-height: 32px;
+    text-align: left;
+    font: 600 14px/35px "微软雅黑";
+    color: #333; }
+    #junav1 .l em h1 {
+      font-weight: 600;
+      color: #ec1611;
+      font-size: 14px;
+      display: inline; }
+
+#junav1 .l .sep {
+  margin: 0 10px;
+  display: inline-block;
+  width: 1px;
+  height: 13px;
+  background: gray;
+  border-left: 1px solid #ddd;
+  position: relative;
+  top: 2px; }
+
+.category {
+  height: 41px;
+  font-size: 14px;
+  color: #666; }
+
+#junav1.nine_twenty .category .area {
+  margin: 0 auto;
+  padding: 0 15px;
+  border: 1px solid #e5e5e5;
+  border-top-style: dotted;
+  border-bottom: 0;
+  background-color: #fff;
+  overflow: hidden;
+  height: 41px;
+  line-height: 41px; }
+
+#junav1 .category a.cur {
+  font-weight: 700;
+  color: #ec1611; }
+
+#junav1 .category a {
+  margin-right: 18px;
+  float: left;
+  color: #666;
+  font-size: 14px; }
+
+#sort_module {
+  height: 38px; }
+
+#sort_module .sort_wrap {
+  height: 36px;
+  margin: 0 auto;
+  border: 1px solid #f2f2f2;
+  background-color: #fff; }
+
+#sort_module .sort_wrap .sort_nav_checked {
+  color: #fff;
+  background-color: #ec1611;
+  cursor: default; }
+
+#sort_module .sort_wrap a {
+  float: left;
+  width: 60px;
+  height: 36px;
+  border-right: 1px solid #f2f2f2;
+  text-align: center;
+  font: 12px/36px "microsoft yahei";
+  color: #666;
+  text-decoration: none; }
+
+#sort_module .sort_wrap .sort_chose {
+  width: 100px;
+  margin-right: 4px;
+  padding-left: 5px;
+  border-right: 0; }
+
+#sort_module .sort_wrap .sort_chose i {
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  background: url("../../src/css/img/xuanze.png") no-repeat -4px 0; }
+
+#lists_wapper {
+  height: 6010px;
+  border-top: 1px solid #ff404c; }
+
+.brand-cpc {
+  width: 300px;
+  height: 400px;
+  font-family: "Microsoft Yahei";
+  font-size: 12px; }
+
+#lists_wapper .con {
+  width: 283px;
+  height: 369px;
+  /*margin: 0 11px 30px;*/ }
+
+.brand-cpc .con {
+  background: #fff; }
+
+.deal .con {
+  position: relative;
+  display: inline;
+  float: left;
+  z-index: 100;
+  width: 310px;
+  height: 378px;
+  margin: 0 12px 30px;
+  text-align: left;
+  line-height: 20px;
+  background: #fff; }
+  .deal .con a img {
+    width: 283px;
+    height: 283px; }
+
+.brand-cpc .title-time {
+  height: 30px;
+  line-height: 20px;
+  padding: 0 10px; }
+
+.brand-cpc .title-time .remain-time {
+  float: right;
+  color: red; }
+  .brand-cpc .title-time .remain-time .yuanjia {
+    color: #666; }
+
+.brand-cpc .coupon-collect .coupon {
+  font-size: 16px;
+  color: #ec1611;
+  display: inline-block;
+  line-height: 80px;
+  width: 194px;
+  height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 10px; }
+
+.deal {
+  overflow: hidden;
+  display: inline;
+  float: left; }
+
+.deal :hover {
+  box-shadow: 0 0 30px 1px #999;
+  border: 0;
+  transition: box-shadow .8s;
+  -moz-transition: box-shadow .8s;
+  -webkit-transition: box-shadow .8s;
+  -o-transition: box-shadow .8s; }
+
+#page0 {
+  width: 450px;
+  height: 50px;
+  margin: 0 auto; }
+  #page0 ul {
+    overflow: hidden; }
+    #page0 ul a {
+      float: left;
+      display: block;
+      font-size: 14px;
+      color: #666;
+      line-height: 50px;
+      text-align: center;
+      padding: 0 28px; }
+
+#nav li {
+  background: #fff;
+  width: 133px; }
+
+#nav li:nth-child(2) {
+  background: #e60044; }
+  #nav li:nth-child(2) a {
+    color: #fff; }
+
+#nav li:first-child {
+  width: 133px;
+  background: #fff; }
+  #nav li:first-child a {
+    color: #666; }

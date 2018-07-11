@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta property="qc:admins" content="210003765762050006375" />
+        <title>折800列表</title>
+        <meta name="keywords" content="折800,折800官网,折八百,9.9包邮,九块九包邮,折800天天特价,zhe800,折八百官网,9块9包邮"/>
+        <meta name="description" content="折800(折八百)-优质折扣商品推荐平台。每天精选千款超值折扣商品，特卖1折起，九块九包邮、9.9元包邮的宝贝天天有，欢迎选购！【折800 真便宜】"/>
+        <meta name="renderer" content="webkit">
+        <!-- <script src="css/jquery-validation-1.15.0/lib/require.js" data-main="js/list" type="text/javascript"></script> -->
+
+        <script src="./js/ajax.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="../dist/sass/base.css" />
+        <link rel="stylesheet" type="text/css" href="../dist/sass/main.css" />
+        <link rel="stylesheet" type="text/css" href="../dist/sass/list.css" />
+        <link rel="stylesheet" type="text/css" href="./css/font-awesome-4.7.0/css/font-awesome.css" />
+        <script src="./js/jquery-3.3.1.js" type="text/javascript"></script>
+        <script src="js/list.js" type="text/javascript"></script>
+</head>
+<body>
+    <!-- 顶部 -->
+    <div id="toolbar">
+        <div class="container">
+           <ul class="clearfix">
+            
+            <li><a href="https://zhaoshang.zhe800.com/" target="_blank"><span>卖家中心</span></a></li>
+            <li><a href="https://help.zhe800.com/" target="_blank"><span>帮助中心</span></a></li>
+            <li><a href="car.html" target="_blank"><span>购物车 0</span></a></li>
+            <li><a href="login.html" target="_blank"><span>我的订单</span></a></li>
+            <li><a href="login.html" target="_blank"><span>登录 免费注册</span></a></li>
+            <li><a href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&response_type=code&client_id=223621&redirect_uri=https%3A%2F%2Fpassport.tuan800.com%2Fusers%2Fauth%2Fqq_connect%2Fcallback&state=1323c9e2acbb65d0363b7b58ff1961111e1a0d325de4eaee&scope=get_user_info%2Cadd_topic%2Cadd_share%2Ccheck_page_fans"><span>QQ登录</span></a></li>
+            <li><a href="https://www.zhe800.com/app#page1"><span><i>图标</i>手机版</span></a></li>
+            <li><a href="http://www.tuan800.com/"><span>团800旗下网站</span></a></li>
+
+        </ul> 
+        </div>
+        
+    </div>
+    <!-- 头部 -->
+    <div id="header">
+        <div class="container clearfix">
+        
+            <div class="indexImg">
+                <a href="https://www.zhe800.com/"><span class="iImg"></span></a>
+            </div>
+
+            <div class="search">
+                <form action="">
+                    <div class="search-text">搜索</div>
+                    <input type="text" name="search" placeholder="行李箱" class="text" />
+                    <div class="search-right">
+                        <i class="fa fa-search searchtu" aria-hidden="true">
+                        <input type="button" /></i>
+                    </div>
+                </form>
+            </div>
+            <div class="links">
+                <a target="_blank" href="//www.zhe800.com/contact?utm_content=zhe800_bottom#page1" class="head_three_icon">
+                    <img src="./css/img/head_three_icon.png" alt="" class="widescreen" width="340" height="40">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 导航 -->
+    <div id="nav">
+        <div class="container">
+            <ul class="clearfix">
+                <li><a href="index.html">
+                        <sapn id="a">首页</sapn>
+                    </a></li>
+                <li><a href="list.html">
+                        <sapn>品牌团</sapn>
+                    </a></li>
+                <li><a href="//www.zhe800.com/ju_type/baoyou">
+                        <sapn>优品汇</sapn>
+                    </a></li>
+                <li><a href="//top.zhe800.com">
+                        <sapn>淘宝精选</sapn>
+                    </a></li>
+                <li><a href="//brand.zhe800.com">
+                        <sapn>9块9包邮</sapn>
+                    </a></li>
+                <li><a href="//www.zhe800.com/n/youpinhui">
+                        <sapn>精选预告</sapn>
+                    </a></li>
+                <li><a href="//www.zhe800.com/jingxuanyugao">
+                        <sapn>特卖商城</sapn>
+                    </a></li>
+                <li><a href="//jifen.zhe800.com/">
+                        <sapn>积分商城</sapn>
+                    </a></li>
+                <li class="qiandao">
+                    <a href="">
+                        <img src="./css/img/haoli.gif" height="34" width="126" >
+                    </a>
+                        <img src="./css/img/haolih.jpg" height="360" width="500" class="gif"/>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="list">
+        <div id="junav1" class="nine_twenty">
+            <div class="junavInfo">
+                <div class="area">
+                    <span class="l">
+                        <em><h1>淘宝精选</h1></em><i class="sep"></i>共有<b>9504</b>件优质商品，每天9点更新
+                    </span>
+                    <!-- <div class="search">
+                        <form target="_blank" action="//search.zhe800.com/search">
+                            <input type="text" name="keyword" class="txt" placeholder="搜全站" title="搜全站" autocomplete="off" data-keyword="搜全站">
+                            <input type="submit" value="" class="smt">
+                        </form>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="category">
+                <div sort="hottest" class="seclevelinner">
+                    <div class="area">
+                        <a type="all" class="nav cur" href="//www.zhe800.com/ju_type/baoyou"><em>全部</em></a>
+                    
+                        <a type="all" class="nav " href="//www.zhe800.com/ju_type/baoyou/taoold"><em>中老年</em></a>
+                        
+                        <a type="all" class="nav " href="//www.zhe800.com/ju_type/baoyou/taoyundong"><em>运动</em></a>
+                        
+                        <a type="all" class="nav " href="//www.zhe800.com/ju_type/baoyou/taojiafang"><em>家纺</em></a>
+                        
+                        <a type="all" class="nav " href="//www.zhe800.com/ju_type/baoyou/taomeizhuang"><em>美妆</em></a>
+                        
+                        <a type="all" class="nav " href="//www.zhe800.com/ju_type/baoyou/taopeishi"><em>配饰</em></a>
+                        
+                        <a type="all" class="nav " href="//www.zhe800.com/ju_type/baoyou/taojiadian"><em>数码家电</em></a>
+                        
+                        <a type="all" class="nav " href="//www.zhe800.com/ju_type/baoyou/taoneiyi"><em>内衣</em></a>
+                        
+                        <a type="all" class="nav " href="//www.zhe800.com/ju_type/baoyou/taonanzhuang"><em>男装</em></a>
+                        
+                        <a type="all" class="nav " href="//www.zhe800.com/ju_type/baoyou/taomeishi"><em>美食</em></a>
+                        
+                        <a type="all" class="nav " href="//www.zhe800.com/ju_type/baoyou/taomuyingertong"><em>母婴儿童</em></a>
+                        
+                        <a type="all" class="nav " href="//www.zhe800.com/ju_type/baoyou/taojujia"><em>居家</em></a>
+                        
+                        <a type="all" class="nav " href="//www.zhe800.com/ju_type/baoyou/taoxiepinxiangbao"><em>鞋包</em></a>
+                        
+                        <a type="all" class="nav " href="//www.zhe800.com/ju_type/baoyou/taofushi"><em>女装</em></a>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div id="sort_module">
+            <div class="sort_wrap">
+                <a href="javascript:void(0)" class="sort_nav sort_default  sort_nav_checked ">综合</a>
+                <a class="xiaoliang">销量</a>
+                <a class="jiageD"">
+                    价格
+                    <span>
+                        <i class="up_triangle "></i>
+                        <i class="down_triangle "></i>
+                    </span>
+                </a>
+                <a class="shijian">最新</a>
+                <a href="//www.zhe800.com/ju_type/baoyou?sort=hottest&amp;shop_only=1" class="sort_nav sort_chose shop_only " data-stat="filter_shop"><i></i>只看特卖商城</a>
+                <a href="//www.zhe800.com/ju_type/baoyou?sort=hottest&amp;taobao_only=1" class="sort_nav sort_chose taobao_only " data-stat="filter_taobao"><i></i>只看天猫/淘宝</a>
+        
+                <a class="nav_paihang" target="_blank" style="display:none;" href="//top.zhe800.com/zuorixiaoliang"><i>TOP </i>销量排行榜</a>
+        
+            </div>
+        </div>
+        <div id="lists_wapper" class="clearfix">
+            
+        </div>
+        <div id="page0">
+            <ul>
+                    <li><a href=""><img src="img/pageL.png" height="35" width="40" alt="" /></a></li>
+                    <li class="page01"><a href=""></li>
+                    <li><a href=""><img src="img/pageR.png" height="35" width="40" alt="" /></a></li>
+            </ul>
+        </div>
+    </div>
+
+        <!-- 底部 -->
+    <div id="footer">
+        <div class="about">
+            <ul class="area clearfix">
+                <li class="lw w1">
+                    <span class="aboutus show_icon"></span>
+                    <span>关于我们</span>
+                    <a href="//www.zhe800.com/contact" target="_blank" add_params="utm_content=zhe800_bottom">关于我们</a>
+                    <a href="//hr.zhe800.com" target="_blank" add_params="utm_content=zhe800_bottom">诚聘英才</a>
+                    <a rel="nofollow" href="//www.zhe800.com/service_terms" target="_blank" add_params="utm_content=zhe800_bottom">网站服务条款</a>
+                    <a href="//help.zhe800.com/detail/82" target="_blank" add_params="utm_content=zhe800_bottom">用户服务协议</a>
+                    <a href="//help.zhe800.com/detail/234" target="_blank" add_params="utm_content=zhe800_bottom">联系我们</a>
+                </li>
+                <li class="lw">
+                    <span class="shopguide show_icon"></span>
+                    <span>购物指南</span>
+                    <a href="//www.zhe800.com/n/newusers" target="_blank" add_params="utm_content=zhe800_bottom">新手玩转折800</a>
+                    <a href="//shop.zhe800.com/my/orders" target="_blank" add_params="utm_content=zhe800_bottom">订单查询</a>
+                    <a href="//www.zhe800.com/faq/rank" target="_blank" add_params="utm_content=zhe800_bottom">会员介绍</a>
+                    <a href="//help.zhe800.com/detail/274" target="_blank" add_params="utm_content=zhe800_bottom">积分攻略</a>
+                    <a href=" //help.zhe800.com/" target="_blank" add_params="utm_content=zhe800_bottom">帮助中心</a>
+                </li>
+                <li class="lw">
+                    <span class="busscom show_icon"></span>
+                    <span>消费者保障</span>
+                    <a href="//www.zhe800.com/n/help/zhe800_description" target="_blank" add_params="utm_content=zhe800_bottom">商品抽检</a>
+                    <a href="//shop.zhe800.com/refunds/customer" target="_blank" add_params="utm_content=zhe800_bottom">退货退款政策</a>
+                    <a href="//shop.zhe800.com/n/act/yunfeibutieka" target="_blank" add_params="utm_content=zhe800_bottom">运费补贴卡</a>
+                    <a href="//help.zhe800.com/detail/2233" target="_blank" add_params="utm_content=zhe800_bottom">无忧售后</a>
+                    <a href="//help.zhe800.com/detail/81" target="_blank" add_params="utm_content=zhe800_bottom">先行赔付</a>
+                </li>
+                <li class="lw">
+                    <span class="usersafe show_icon"></span>
+                    <span>商务合作</span>
+                    <a href="https://zhaoshang.zhe800.com/" target="_blank" add_params="utm_content=zhe800_bottom">商家报名</a>
+                    <a href="//www.zhe800.com/friendly_links" target="_blank" add_params="utm_content=zhe800_bottom">友情链接</a>
+                    <a href="//www.zhe800.com/n/jubao" target="_blank" add_params="utm_content=zhe800_bottom">廉正举报</a>
+                </li>
+                <li class="w3">
+                    <span class="nexttothere show_icon"></span>
+                    <span>下次怎么来?</span>
+                    <h3>
+                    记住域名：<a href="//www.zhe800.com" add_params="utm_content=zhe800_bottom" target="_blank">
+                        <em>zhe800.com</em>
+                        </a>
+                    </h3>
+                    <h4>
+                        百度搜索：<a rel="nofollow" href="//www.baidu.com/s?tn=baiduhome_pg&amp;ie=utf-8&amp;bs=%E6%8A%98800&amp;f=8&amp;rsv_bp=1&amp;rsv_spt=1&amp;wd=%E6%8A%98800&amp;inputT=0" target="_blank">折800</a>
+                    </h4>
+                    <a class="desktop" rel="nofollow" href="//www.zhe800.com/download_tao800?fn=%E6%8A%98800.url" title="下载桌面快捷方式" target="_blank">下载桌面快捷方式</a>
+                    <h5>
+                        收藏本站：<a id="clt" href="javascript:$.addfavorite()">
+                        <u>加入收藏</u>
+                        </a>
+                    </h5>
+                    <h6>
+                        订阅本站：
+                        <br>
+                        <input type="text" class="txt" placeholder="输入您的邮件" id="subscribe_email"><input type="button" onclick="$.tao_dingyue()" class="smt dysmt" value="订阅"></h6>
+                </li>
+                <li class="w4">
+                    <div class="bottom_qrcode_wrapper">
+                        <img src="./css/img/zhefooter.png" height="216" width="104" alt="" />
+                    </div>
+                    <span>下载登录手机端App</span>
+                </li>
+            </ul>
+        </div>
+        <div class="for_bg_color clearfix">
+            <div class="friendly_links area">
+                <span>友情链接：</span>
+                <div class="links">
+                    <ul class="scroll_link clearfix">
+                        
+                        <li>
+                            
+                            <a href="http://nanku.99114.com/" target="_blank">中国男裤交易网</a>
+                            
+                            <a href="http://sanxing-i9220-shuajibao.shuajizhijia.net/" target="_blank">三星Galaxy Note</a>
+                            
+                            <a href="http://www.921rc.com/" target="_blank">南通人才网</a>
+                            
+                            <a href="http://nanzhuang.ecduo.cn/ " target="_blank">男装货源</a>
+                            
+                        </li>
+                        
+                    </ul>
+                </div>
+                <a href="//www.zhe800.com/friendly_links" target="_blank" class="more">更多&gt;&gt;</a>
+            </div>
+        </div>
+        <div class="foot-con">
+            <div class="area footer">
+                <span class="footer-name">成都团博百众科技有限公司</span>
+                <a rel="nofollow" target="_blank" href="http://www.miibeian.gov.cn/" style="display:inline; width:auto;color:#999">京ICP证120075号&nbsp;</a> 京ICP备10051110号-5&nbsp;
+                <a rel="nofollow" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502025623" style="display:inline; width:auto;color:#999">京公网安备11010502025623&nbsp;</a> 统一社会信用代码 91110105571298269B&nbsp; 食品流通许可证SP1101051510352397 <br>出版物经营许可证&nbsp;新出发京零字第朝160018号&nbsp;&nbsp;Copyright©2011-2015 版权所有 ZHE800.COM<br>
+                <div class="foot_center">
+                    <a rel="nofollow" class="commitment" href="//www.zhe800.com/cn/list/commitment" target="_blank">
+                        <span class="commitment_img"></span>
+                    </a>
+                    <a rel="nofollow" class="wxrz" href="http://www.itrust.org.cn/yz/pjwx.asp?wm=3571298269" target="_blank" style="float: left;">
+                        <span class="wxrz_img"></span>
+                    </a>
+                    <a rel="nofollow" id="___szfw_logo___" class="cxwz" href="https://credit.szfw.org/CX20180411080002360178.html" style="float: left;" target="_blank">
+                        <span class="cxwz_img"></span>
+                    </a>
+                    <a rel="nofollow" class="kxwz" href="https://ss.knet.cn/verifyseal.dll?sn=e150522110105588321uva000000&amp;ct=df&amp;a=1&amp;pa=0.07444781064987183" target="_blank" style="float: left;">
+                        <span class="kxwz_img"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 右边固定导航 -->
+
+    <div id="sidebar">
+        <div class="side-tab side-tab-top side-tab-cart side-tab-top0">
+            <div class="tab-icon cart-icon"></div>
+            <div class="tab-text">购物车</div>
+            <div class="tab-sup">
+              <div class="tab-sup-bg">
+                <div class="tab-sup-bd">0</div>
+              </div>
+            </div>
+                <a href="//cart.zhe800.com/cart" target="_blank" add_params="utm_content=right_bar"></a>
+        </div>
+
+        <div class="side-tab side-tab-top side-tab-order side-tab-top1">
+            <div class="tab-icon order-icon">
+              <a href="//shop.zhe800.com/my/orders" target="_blank" add_params="utm_content=right_bar"></a>
+            </div>
+            <div class="tab-tip">
+              <a href="//shop.zhe800.com/my/orders" target="_blank" add_params="utm_content=right_bar">我的订单</a>
+            </div>
+        </div>
+
+        <div class="side-tab side-tab-top side-tab-coupons side-tab-top2">
+            <div class="tab-icon coupons-icon">
+              <a href="//shop.zhe800.com/my/coupons" target="_blank" add_params="utm_content=right_bar"></a>
+            </div>
+            <div class="tab-tip">
+                <a href="//shop.zhe800.com/my/coupons" target="_blank" add_params="utm_content=right_bar">我的优惠券</a>
+            </div>
+        </div>
+        <div class="side-tab side-tab-top side-tab-myFavorites side-tab-top3">
+            <div class="tab-icon myFavorites-icon">
+                <a href="//www.zhe800.com/profile/my_favorites/all" target="_blank" add_params="utm_content=right_bar"></a>
+            </div>
+            <div class="tab-tip">
+                <a href="//www.zhe800.com/profile/my_favorites/all" target="_blank" add_params="utm_content=right_bar">我的收藏</a>
+            </div>
+        </div>
+        <div class="side-tab side-tab-top side-tab-imMessage side-tab-top4">
+            <div class="tab-icon imMessage-icon"></div>
+            <div class="tab-tip">
+                <a class="message_text">卖家消息</a>
+            </div>
+        </div>
+        <div class="side-tab side-tab-bottom side-tab-checkin side-tab-bottom5">
+            <div class="tab-icon checkin-icon"></div>
+            <div class="tab-tip signTips">
+                <div class="tab-ckcontent">
+                    <table class="tab-cktips"><tbody><tr><td><div>想领钱，先签到<br>积分抵现又换礼</div></td></tr></tbody></table>
+                </div>
+            </div>
+        </div>
+        <div class="side-tab side-tab-bottom side-tab-gender side-tab-bottom4">
+            <div class="tab-icon gender-icon def"></div>
+            <div class="tab-tip" id="userversion">
+                <a href="//www.zhe800.com?userversion=def#today_deals" data-version="def" class="gender-version-def on">默认</a>
+                <a href="//www.zhe800.com?userversion=lama#today_deals" title="选择后，将优先展示偏辣妈商品" data-version="lama" class="gender-version-lama">辣妈</a>
+                <a href="//www.zhe800.com?userversion=woman#today_deals" title="选择后，将优先展示偏女性商品" data-version="woman" class="gender-version-woman">女</a>
+                <a href="//www.zhe800.com?userversion=man#today_deals" title="选择后，将优先展示偏男性商品" data-version="man" class="gender-version-man">男</a>
+            </div>
+        </div>
+          
+        <div class="side-tab side-tab-bottom side-tab-qrcode side-tab-bottom3">
+            <div class="tab-icon qrcode-icon">
+                <a href="//www.zhe800.com/app" target="_blank" add_params="utm_content=right_bar"></a>
+            </div>
+            <div class="tab-tip">
+                <a href="//www.zhe800.com/app" target="_blank" add_params="utm_content=right_bar"></a>
+            </div>
+            </div>
+        <div class="side-tab side-tab-bottom side-tab-faq side-tab-bottom2">
+            <div class="tab-icon faq-icon">
+                <a href="//help.zhe800.com" target="_blank" add_params="utm_content=right_bar"></a>
+            </div>
+            <div class="tab-tip">
+                <a href="//help.zhe800.com" target="_blank" add_params="utm_content=right_bar">常见问题</a>
+            </div>
+        </div>
+        <div class="side-tab side-tab-bottom side-tab-feedback feedback_popup_handler side-tab-bottom1">
+            <div class="tab-icon feedback-icon"></div>
+            <div class="tab-tip">
+                意见反馈
+            </div>
+        </div>
+        <div class="side-tab side-tab-bottom side-tab-totop side-tab-bottom0" id="goTop">
+            <a href="#"><div class="tab-icon totop-icon"></div></a>
+            <div class="tab-tip backTop">
+              返回顶部
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
